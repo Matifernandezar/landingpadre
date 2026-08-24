@@ -24,6 +24,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .books-grid{grid-template-columns:repeat(3,1fr)}
+    @media(max-width:920px){.books-grid{grid-template-columns:1fr}}
+  </style>
 
   <script type="application/ld+json">
   {
@@ -53,6 +57,12 @@
       {
         "@type":"Book",
         "name":"Liberación Espiritual: Vence las Maldiciones y la Brujería",
+        "author":{"@type":"Person","name":"Luis Felipe Izquierdo Cundafe"}
+      },
+      {
+        "@type":"Book",
+        "name":"Más Allá de la Oscuridad",
+        "alternativeHeadline":"Comprendiendo el Exorcismo: Creencias, Prácticas y Testimonios",
         "author":{"@type":"Person","name":"Luis Felipe Izquierdo Cundafe"}
       }
     ]
@@ -200,6 +210,19 @@
           <p class="book-subtitle">Vence las Maldiciones y la Brujería</p>
           <p>Una obra centrada en la fe, la oración, la esperanza, la confianza en Dios y el camino de liberación espiritual.</p>
           <button class="btn btn-secondary" disabled>Comprar en Amazon — próximamente</button>
+        </div>
+      </article>
+
+      <article class="book-card reveal">
+        <div class="book-cover-wrap">
+          <img src="assets/images/mas-alla-de-la-oscuridad.png" alt="Portada de Más Allá de la Oscuridad" loading="lazy">
+        </div>
+        <div class="book-info">
+          <p class="book-label">Investigación espiritual</p>
+          <h3>Más Allá de la Oscuridad</h3>
+          <p class="book-subtitle">Comprendiendo el Exorcismo: Creencias, Prácticas y Testimonios</p>
+          <p>Un recorrido serio por la historia del exorcismo, las tradiciones religiosas, la psicología, la ciencia, la ética y los caminos hacia la liberación espiritual.</p>
+          <button class="btn btn-secondary" disabled>Comprar — próximamente</button>
         </div>
       </article>
     </div>
