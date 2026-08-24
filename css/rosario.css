@@ -1,0 +1,32 @@
+.rosary-page{background:#16140f;color:#29251e}
+.rosary-page .site-header{background:rgba(18,17,14,.94)}
+.rosary-hero{padding:140px 0 80px;background:radial-gradient(circle at 75% 20%,rgba(200,168,107,.18),transparent 30%),linear-gradient(135deg,#11110f,#211c14);color:var(--text)}
+.rosary-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
+.rosary-hero h1{font-size:clamp(3.8rem,7.5vw,7.6rem);line-height:.86}
+.rosary-subtitle{font-family:"Cormorant Garamond",serif;font-size:clamp(1.8rem,3vw,2.8rem);color:var(--gold2);margin:26px 0 8px}
+.rosary-intro{color:#c9c2b6;max-width:650px;font-size:1.05rem}
+.rosary-portrait{margin:0;position:relative;border-radius:180px 180px 26px 26px;overflow:hidden;border:1px solid rgba(255,255,255,.15);box-shadow:var(--shadow)}
+.rosary-portrait img{width:100%;aspect-ratio:2/3;object-fit:cover}
+.rosary-portrait figcaption{position:absolute;left:18px;right:18px;bottom:18px;background:rgba(17,16,13,.82);backdrop-filter:blur(10px);padding:12px 16px;border-radius:999px;text-align:center;color:#e3d4b5;font-size:.78rem}
+.prayer-index{position:sticky;top:84px;z-index:50;background:rgba(244,239,229,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--lined)}
+.prayer-index-inner{display:flex;gap:8px;overflow-x:auto;padding-top:12px;padding-bottom:12px;scrollbar-width:none}
+.prayer-index a{white-space:nowrap;border:1px solid var(--lined);border-radius:999px;padding:8px 12px;color:#5d503b;font-size:.76rem;font-weight:700}
+.prayer-content{padding-top:70px;padding-bottom:100px;max-width:900px}
+.prayer-card,.response-card{position:relative;background:var(--paper);padding:clamp(28px,5vw,60px);border-radius:24px;margin-bottom:24px;box-shadow:0 20px 60px rgba(0,0,0,.18);scroll-margin-top:160px;overflow:hidden}
+.prayer-card h2{font-size:clamp(2.5rem,5vw,4.5rem);line-height:.95;margin:12px 0 30px;color:#221e17}
+.prayer-card h3{font-size:2rem;margin:36px 0 10px;color:#473a27}
+.prayer-card p{color:#514a40}
+.step{display:inline-block;text-transform:uppercase;letter-spacing:.17em;font-size:.7rem;font-weight:700;color:#80683d}
+.lead-prayer{font-family:"Cormorant Garamond",serif;font-size:clamp(1.65rem,3vw,2.25rem);line-height:1.25;color:#33291d!important}
+.verse{font-family:"Cormorant Garamond",serif;font-size:1.55rem;line-height:1.4;columns:2;column-gap:50px}.verse p{break-inside:avoid;margin-top:0;margin-bottom:28px}
+.response-card{background:#29251d;color:#f4efe5}.response-card .step{color:var(--gold2)}.response-card p{font-family:"Cormorant Garamond",serif;font-size:1.6rem}
+.mystery-number{position:absolute;right:24px;top:-30px;font-family:"Cormorant Garamond",serif;font-size:8rem;font-weight:700;color:rgba(128,104,61,.1)}
+.responses{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:25px 0}.responses p{margin:0;padding:18px;border-radius:14px;background:#e9dfcd}.responses strong{color:#6c5631}
+.glory{margin:28px 0;padding:22px;border-left:4px solid var(--gold);background:#eee5d6}.glory p{margin:7px 0}
+.compact-response{font-family:"Cormorant Garamond",serif;font-size:1.65rem;line-height:1.45;color:#6b5330;border-top:1px solid var(--lined);border-bottom:1px solid var(--lined);padding:22px 0}
+.litany{background:linear-gradient(145deg,#f4efe5,#e7d8bd)}
+.final-response{text-align:center;background:#e9dfcd;border-radius:18px;padding:20px;margin:30px 0}.final-response p{font-family:"Cormorant Garamond",serif;font-size:1.7rem;margin:0}.final-response span{font-family:Inter,sans-serif;font-size:.8rem}
+.signature{text-align:right;font-weight:700;color:#80683d!important;margin-top:34px}
+.rosary-final-cta{text-align:center;padding:100px 0;background:radial-gradient(circle at center,rgba(200,168,107,.15),transparent 40%),#11110f;color:white}.rosary-final-cta p{font-family:"Cormorant Garamond",serif;font-size:clamp(2.6rem,6vw,5.5rem);line-height:1;margin:0 auto 35px;max-width:900px}
+@media(max-width:920px){.rosary-hero-grid,.rosary-feature-grid{grid-template-columns:1fr}.rosary-portrait{max-width:560px;margin:auto;order:-1}.verse{columns:1}.responses{grid-template-columns:1fr}}
+@media(max-width:620px){.rosary-page .nav-wrap{min-height:76px}.rosary-page .nav-wrap .btn{min-height:40px;padding:0 14px;font-size:.78rem}.rosary-hero{padding:110px 0 55px}.rosary-hero h1{font-size:3.7rem}.rosary-portrait{border-radius:90px 90px 18px 18px}.prayer-index{top:76px}.prayer-content{padding-top:36px;padding-bottom:70px}.prayer-card,.response-card{padding:28px 22px;border-radius:18px}.verse{font-size:1.35rem}.mystery-number{font-size:6rem}.rosary-feature-grid{gap:35px}}
