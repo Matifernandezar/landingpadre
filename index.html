@@ -23,10 +23,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=20260825-2">
   <style>
     .books-grid{grid-template-columns:repeat(3,1fr)}
-    @media(max-width:920px){.books-grid{grid-template-columns:1fr}}
+    @media(max-width:920px){
+      .books-grid{grid-template-columns:1fr}
+      .rosary-feature-grid{display:flex!important;flex-direction:column!important;gap:32px!important}
+      .rosary-feature-image{width:100%!important;max-width:520px!important;margin:0 auto!important}
+      .rosary-feature-image img{display:block!important;width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
+      .rosary-feature-copy{width:100%!important}
+    }
+    @media(max-width:620px){
+      .rosary-feature-copy h2{font-size:clamp(2.7rem,13vw,4rem)}
+      .rosary-feature-copy .btn{width:100%}
+    }
   </style>
 
   <script type="application/ld+json">
