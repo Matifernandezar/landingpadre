@@ -1,0 +1,43 @@
+.prayers-page{background:#171611;color:#f4efe5}
+.prayers-hero{padding:145px 0 82px;background:radial-gradient(circle at 78% 18%,rgba(200,168,107,.2),transparent 32%),linear-gradient(135deg,#11110f,#211c14)}
+.prayers-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
+.prayers-hero h1{font-size:clamp(4rem,8vw,8rem);line-height:.85;margin-bottom:28px}
+.prayers-lead{max-width:650px;color:#cfc7b8;font-size:1.08rem}
+.prayers-hero-art{position:relative;min-height:470px;border:1px solid rgba(255,255,255,.13);border-radius:220px 220px 28px 28px;overflow:hidden;background:linear-gradient(160deg,#282218,#0e0e0c);box-shadow:var(--shadow)}
+.prayers-hero-art img{width:100%;height:100%;min-height:470px;object-fit:cover;opacity:.72}
+.prayers-hero-art:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(10,10,8,.8))}
+.prayers-hero-quote{position:absolute;z-index:2;left:28px;right:28px;bottom:28px;font-family:"Cormorant Garamond",serif;font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.05;text-align:center}
+.prayers-library{background:#f2ecdf;color:#29251e;padding:90px 0}
+.prayers-library .section-head{max-width:760px}
+.prayer-library-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:42px}
+.prayer-library-card{display:grid;grid-template-columns:180px 1fr;background:#fffaf0;border:1px solid rgba(81,69,48,.14);border-radius:24px;overflow:hidden;box-shadow:0 18px 45px rgba(39,31,20,.1)}
+.prayer-library-card img{width:100%;height:100%;min-height:320px;object-fit:cover}
+.prayer-library-card-copy{padding:30px;display:flex;flex-direction:column;align-items:flex-start}
+.prayer-library-card h2{font-size:clamp(2.2rem,3.5vw,3.4rem);line-height:.95;margin:10px 0 18px;color:#241f18}
+.prayer-library-card p{color:#625b50}
+.prayer-library-card .btn{margin-top:auto}
+.prayer-note{margin-top:36px;padding:22px 26px;border-left:4px solid var(--gold);background:#e8decb;color:#5e5547;border-radius:0 14px 14px 0}
+.prayer-article{background:#efe8da;color:#2b271f}
+.article-hero{padding:135px 0 65px;background:radial-gradient(circle at 80% 15%,rgba(200,168,107,.18),transparent 30%),#15140f;color:#f4efe5}
+.article-hero-grid{display:grid;grid-template-columns:1fr 340px;gap:60px;align-items:center}
+.article-hero h1{font-size:clamp(3.5rem,7vw,7rem);line-height:.88;margin:16px 0 24px}
+.article-hero p{color:#cbc3b4;max-width:720px}
+.article-saint{margin:0;border-radius:170px 170px 22px 22px;overflow:hidden;border:1px solid rgba(255,255,255,.16);background:#292318}
+.article-saint img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.article-index{position:sticky;top:84px;z-index:40;background:rgba(246,240,228,.96);border-bottom:1px solid rgba(81,69,48,.16);backdrop-filter:blur(12px)}
+.article-index-inner{display:flex;gap:8px;padding:12px 0;overflow-x:auto;scrollbar-width:none}
+.article-index a{white-space:nowrap;padding:8px 13px;border:1px solid rgba(81,69,48,.18);border-radius:999px;color:#665536;font-size:.75rem;font-weight:700}
+.article-content{max-width:860px;padding-top:65px;padding-bottom:90px}
+.devotional-card{scroll-margin-top:160px;background:#fffaf0;border-radius:24px;padding:clamp(27px,5vw,58px);margin-bottom:24px;box-shadow:0 18px 55px rgba(38,30,19,.11)}
+.devotional-card h2{font-size:clamp(2.4rem,5vw,4.2rem);line-height:.96;color:#272117;margin:12px 0 28px}
+.devotional-card h3{font-size:clamp(1.7rem,3vw,2.4rem);color:#564324;margin:34px 0 12px}
+.devotional-card p{color:#554e43;font-size:1.02rem;line-height:1.9}
+.prayer-text{font-family:"Cormorant Garamond",serif;font-size:clamp(1.45rem,2.5vw,1.9rem)!important;line-height:1.52!important;color:#352c20!important}
+.latin-prayer{padding:24px;border-left:4px solid var(--gold);background:#eee2cc;border-radius:0 14px 14px 0}
+.devotional-instruction{background:#252119;color:#f2eadb;padding:24px;border-radius:16px;margin-top:28px}
+.devotional-instruction p{color:#e0d3bd;margin:6px 0}
+.pastoral-note{background:#e5d8bf;border:1px solid rgba(102,83,52,.17)}
+.pastoral-note h2{font-size:2.3rem}
+.back-top{display:inline-flex;margin-top:20px;color:#7a6239;font-weight:700}
+@media(max-width:960px){.prayers-hero-grid,.article-hero-grid{grid-template-columns:1fr}.prayers-hero-art,.article-saint{width:100%;max-width:520px;margin:auto;order:-1}.prayer-library-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.prayers-hero,.article-hero{padding:105px 0 52px}.prayers-hero h1,.article-hero h1{font-size:3.55rem}.prayers-hero-art{min-height:390px}.prayers-hero-art img{min-height:390px}.prayer-library-card{grid-template-columns:1fr}.prayer-library-card img{height:auto;min-height:0;max-height:390px;object-position:top}.prayer-library-card-copy{padding:25px}.prayer-library-card .btn{width:100%;margin-top:12px}.article-saint{max-width:330px}.article-index{top:76px}.article-content{padding-top:34px}.devotional-card{padding:28px 22px;border-radius:18px}.devotional-card p{font-size:.98rem;line-height:1.75}}
